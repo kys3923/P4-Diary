@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087d90b9-0a66-45b6-85ad-5f57119ab838" name="Default Changelist" comment="learned Expanded">
+    <list default="true" id="087d90b9-0a66-45b6-85ad-5f57119ab838" name="Default Changelist" comment="built a user card for an experiment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
@@ -77,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615561824622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="built a user card for an experiment">
+      <created>1615563669395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615563669395</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -104,7 +111,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="learned Expanded" />
-    <option name="LAST_COMMIT_MESSAGE" value="learned Expanded" />
+    <MESSAGE value="built a user card for an experiment" />
+    <option name="LAST_COMMIT_MESSAGE" value="built a user card for an experiment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1681" y="123" width="1480" height="776" key="AVDManager" timestamp="1615560592673">
