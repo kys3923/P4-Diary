@@ -20,15 +20,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087d90b9-0a66-45b6-85ad-5f57119ab838" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/b8a90f5b2730bb66ba10cb0543f16ae9/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/b8a90f5b2730bb66ba10cb0543f16ae9/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/b8a90f5b2730bb66ba10cb0543f16ae9/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/b8a90f5b2730bb66ba10cb0543f16ae9/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/b8a90f5b2730bb66ba10cb0543f16ae9/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/b8a90f5b2730bb66ba10cb0543f16ae9/debug_android_application.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/b8a90f5b2730bb66ba10cb0543f16ae9/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/b8a90f5b2730bb66ba10cb0543f16ae9/flutter_assets.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/b8a90f5b2730bb66ba10cb0543f16ae9/outputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/b8a90f5b2730bb66ba10cb0543f16ae9/outputs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/P4-Diary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/P4-Diary.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/FontManifest.json.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/FontManifest.json.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/FontManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/FontManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/FontManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/FontManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_6_API_30]" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -44,7 +69,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="memory.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -82,27 +107,36 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="122" key="GridCell.Tab.0.bottom" timestamp="1615532284165">
+    <state x="-1681" y="123" width="1480" height="776" key="AVDManager" timestamp="1615560592673">
+      <screen x="-2560" y="23" width="2560" height="1057" />
+    </state>
+    <state x="-1681" y="123" width="1480" height="776" key="AVDManager/-2560.23.2560.1057/1680.23.1920.1057/0.23.1680.977@-2560.23.2560.1057" timestamp="1615560592673" />
+    <state width="1638" height="237" key="GridCell.Tab.0.bottom" timestamp="1615560664595">
+      <screen x="-2560" y="23" width="2560" height="1057" />
+    </state>
+    <state width="1638" height="237" key="GridCell.Tab.0.bottom/-2560.23.2560.1057/1680.23.1920.1057/0.23.1680.977@-2560.23.2560.1057" timestamp="1615560664595" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/-2560.23.2560.987/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1615535735033" />
+    <state width="1638" height="237" key="GridCell.Tab.0.center" timestamp="1615560664594">
+      <screen x="-2560" y="23" width="2560" height="1057" />
+    </state>
+    <state width="1638" height="237" key="GridCell.Tab.0.center/-2560.23.2560.1057/1680.23.1920.1057/0.23.1680.977@-2560.23.2560.1057" timestamp="1615560664594" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center/-2560.23.2560.987/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1615535735033" />
+    <state width="1638" height="237" key="GridCell.Tab.0.left" timestamp="1615560664593">
+      <screen x="-2560" y="23" width="2560" height="1057" />
+    </state>
+    <state width="1638" height="237" key="GridCell.Tab.0.left/-2560.23.2560.1057/1680.23.1920.1057/0.23.1680.977@-2560.23.2560.1057" timestamp="1615560664593" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left/-2560.23.2560.987/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1615535735033" />
+    <state width="1638" height="237" key="GridCell.Tab.0.right" timestamp="1615560664594">
+      <screen x="-2560" y="23" width="2560" height="1057" />
+    </state>
+    <state width="1638" height="237" key="GridCell.Tab.0.right/-2560.23.2560.1057/1680.23.1920.1057/0.23.1680.977@-2560.23.2560.1057" timestamp="1615560664594" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right/-2560.23.2560.987/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1615535735033" />
+    <state x="229" y="100" key="SettingsEditor" timestamp="1615534497286">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="122" key="GridCell.Tab.0.bottom/-2560.23.2560.987/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1615532284165" />
-    <state width="1398" height="122" key="GridCell.Tab.0.center" timestamp="1615532284164">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="122" key="GridCell.Tab.0.center/-2560.23.2560.987/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1615532284164" />
-    <state width="1398" height="122" key="GridCell.Tab.0.left" timestamp="1615532284164">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="122" key="GridCell.Tab.0.left/-2560.23.2560.987/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1615532284164" />
-    <state width="1398" height="122" key="GridCell.Tab.0.right" timestamp="1615532284164">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="122" key="GridCell.Tab.0.right/-2560.23.2560.987/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1615532284164" />
-    <state x="229" y="100" key="SettingsEditor" timestamp="1615530091179">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="229" y="100" key="SettingsEditor/-2560.23.2560.987/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1615530091179" />
+    <state x="229" y="100" key="SettingsEditor/-2560.23.2560.987/1440.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1615534497286" />
   </component>
 </project>

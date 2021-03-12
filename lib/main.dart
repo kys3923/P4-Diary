@@ -14,22 +14,84 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber[600],
         ),
         body: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('hello, world'),
-            FlatButton(
-                onPressed: () {},
-                color: Colors.amber,
-                child: Text('click here')
+            Expanded( //functions lika a group
+              flex: 3, //portion of the width
+              child: Container(
+                padding: EdgeInsets.all(30),
+                color: Colors.cyan,
+                child: Text('1'),
+              ),
             ),
-            Container(
-              color: Colors.cyan,
-              padding: EdgeInsets.all(30),
-              child: Text('inside container')
-            )
-          ]
+            Expanded(
+              flex: 2,
+              child: Container(
+                padding: EdgeInsets.all(30),
+                color: Colors.pinkAccent,
+                child: Text('2'),
+              ),
+            ),
+            Expanded(
+              flex: 1,
+              child: Container(
+                padding: EdgeInsets.all(30),
+                color: Colors.amber,
+                child: Text('3'),
+              ),
+            ),
+
+          ],
         ),
+
+
+        //------------------------------- column expanded
+        // body: Column(
+        //   mainAxisAlignment: MainAxisAlignment.end,
+        //   crossAxisAlignment: CrossAxisAlignment.end,
+        //   children: <Widget>[
+        //     Row(
+        //       children: <Widget>[
+        //         Text('hello'),
+        //         Text('world'),
+        //       ]
+        //     ),
+        //     Container(
+        //       padding: EdgeInsets.all(20),
+        //       color: Colors.cyan,
+        //       child: Text('one')
+        //     ),
+        //     Container(
+        //         padding: EdgeInsets.all(30),
+        //         color: Colors.pinkAccent,
+        //         child: Text('two')
+        //     ),
+        //     Container(
+        //         padding: EdgeInsets.all(40),
+        //         color: Colors.amber,
+        //         child: Text('three')
+        //     ),
+        //   ],
+        // ),
+
+
+        //----------------------------------- Row
+        // body: Row(
+        //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        //   crossAxisAlignment: CrossAxisAlignment.start,
+        //   children: <Widget>[
+        //     Text('hello, world'),
+        //     FlatButton(
+        //         onPressed: () {},
+        //         color: Colors.amber,
+        //         child: Text('click here')
+        //     ),
+        //     Container(
+        //       color: Colors.cyan,
+        //       padding: EdgeInsets.all(30),
+        //       child: Text('inside container')
+        //     )
+        //   ]
+        // ),
 
 
         //------------------------------ having padding itself as an element
