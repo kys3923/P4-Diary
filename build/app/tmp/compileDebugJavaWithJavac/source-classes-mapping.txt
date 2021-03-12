@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+p4diary/flutter_diary/BuildConfig.java
+ p4diary.flutter_diary.BuildConfig
