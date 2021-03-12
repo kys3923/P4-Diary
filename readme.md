@@ -1,6 +1,6 @@
-# P4 - Swift Diary
+# P4 - Flutter Diary
 
-###### techs using: `Swift` `PostgreSQL`
+###### techs using: `Flutter` `Dart` `PostgreSQL`
 
 
 ## User Story
