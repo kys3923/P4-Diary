@@ -15,6 +15,7 @@
 		429BDCBC25FB186700EF1A91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429BDCBA25FB186700EF1A91 /* LaunchScreen.storyboard */; };
 		429BDCC725FB186700EF1A91 /* P4_DiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429BDCC625FB186700EF1A91 /* P4_DiaryTests.swift */; };
 		429BDCD225FB186700EF1A91 /* P4_DiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429BDCD125FB186700EF1A91 /* P4_DiaryUITests.swift */; };
+		429BDCE025FB1AA600EF1A91 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 429BDCDF25FB1AA600EF1A91 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		429BDCCD25FB186700EF1A91 /* P4-DiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P4-DiaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		429BDCD125FB186700EF1A91 /* P4_DiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P4_DiaryUITests.swift; sourceTree = "<group>"; };
 		429BDCD325FB186700EF1A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		429BDCDF25FB1AA600EF1A91 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		429BDCA225FB186500EF1A91 = {
 			isa = PBXGroup;
 			children = (
+				429BDCDF25FB1AA600EF1A91 /* readme.md */,
 				429BDCAD25FB186500EF1A91 /* P4-Diary */,
 				429BDCC525FB186700EF1A91 /* P4-DiaryTests */,
 				429BDCD025FB186700EF1A91 /* P4-DiaryUITests */,
@@ -234,6 +237,7 @@
 			files = (
 				429BDCBC25FB186700EF1A91 /* LaunchScreen.storyboard in Resources */,
 				429BDCB925FB186700EF1A91 /* Assets.xcassets in Resources */,
+				429BDCE025FB1AA600EF1A91 /* readme.md in Resources */,
 				429BDCB425FB186500EF1A91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
