@@ -12,14 +12,45 @@ class Home extends StatelessWidget {
         title: Text('my first app'),
         centerTitle: true,
         backgroundColor: Colors.amber[600],
-      ),
-      body: Center(
-        child: IconButton(
-          onPressed: () {
-            print('Clicked Icon');
-          },
-          icon: Icon(Icons.alternate_email),
-          color: Colors.amber
+        ),
+        body: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Text('hello, world'),
+            FlatButton(
+                onPressed: () {},
+                color: Colors.amber,
+                child: Text('click here')
+            ),
+            Container(
+              color: Colors.cyan,
+              padding: EdgeInsets.all(30),
+              child: Text('inside container')
+            )
+          ]
+        ),
+
+
+        //------------------------------ having padding itself as an element
+        // body: Padding(
+        //   padding: EdgeInsets.all(30),
+        //   child: Text('hello2')
+
+      //-------------------------------- using container and padding
+      // body: Container(
+      //   padding: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0),
+      //   margin: EdgeInsets.all(30.0),
+      //   color: Colors.grey[400],
+      //   child: Text('Hello')
+
+        //----------------------------- press button
+        // child: IconButton(
+        //   onPressed: () {
+        //     print('Clicked Icon');
+        //   },
+        //   icon: Icon(Icons.alternate_email),
+        //   color: Colors.amber
 
 
         //------------------------------ icon button
@@ -66,8 +97,8 @@ class Home extends StatelessWidget {
         //       color: Colors.grey[600],
         //       fontFamily: 'NanumGothic-Bold',
         //     )
-        ),
-      ),
+
+
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text(
