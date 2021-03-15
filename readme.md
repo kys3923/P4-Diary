@@ -12,7 +12,7 @@
 The MVP is learning new language and platform to build an app. The goal for MVP for this project is to have a functional app in the FrontEnd
 
 - [x] Install Dart and Flutter
-- [ ] Top Nav
+- [x] Top Nav
 - [ ] Choosing Year
 - [ ] Month Cards
 - - [ ] Slide
