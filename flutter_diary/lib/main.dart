@@ -2,14 +2,15 @@
 import 'package:flutter/material.dart';
 
 // --------------------------------------- importing pages
-import 'pages/home.dart';
-import 'pages/loading.dart';
+// import 'pages/home.dart';
+import 'pages/landing.dart';
+// import 'pages/loading.dart';
 
 
 void main() => runApp(MaterialApp(
-  initialRoute: '/home',
+  initialRoute: '/landing',
   routes:{
     // '/': (context) => Loading(),
-    '/home':(context) => Home(),
+    '/landing':(context) => Home2(),
   },
 ));
