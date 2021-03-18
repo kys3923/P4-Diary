@@ -12,6 +12,10 @@ class Diary {
       'description': description,
     };
   }
+  @override
+  String toString() {
+    return 'Diary{id: $id, title: $title, description: $description}';
+  }
 }
 
 //TODO: add mood and weather

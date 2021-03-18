@@ -73,11 +73,11 @@ class _DiaryPageState extends State<DiaryPage> {
                           onSubmitted: (value) async  {
                             print('entered title: $value');
 
-                            if(value != '') {
+                            if(value != "") {
                               if (widget.diary == null) {
                                 Diary _newDiary = Diary(title: value);
                                 _diaryId = await _dbHelper.insertDiary(_newDiary);
-                                print('date inputted');
+                                print('data inputted');
                                 setState(() {
                                   _diaryTitle = value;
                                 });

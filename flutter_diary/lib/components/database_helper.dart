@@ -2,31 +2,38 @@ import 'package:path/path.dart';
 import 'dart:async';
 import 'package:sqflite/sqflite.dart';
 import 'package:flutter_diary/components/diary.dart';
+import 'package:flutter/widgets.dart';
 
 
 class DatabaseHelper {
 
   Future<Database> database() async {
+    WidgetsFlutterBinding.ensureInitialized();
     return openDatabase(
       join(await getDatabasesPath(), 'diary.db'),
-      onCreate: (db, version) async {
-
-        await  db.execute("CREATE TABLE diaries(id INTEGER PRIMARY KEY, title TEXT, description TEXT)");
-        print('created');
-
-        return db;
+      onCreate: (db, version) {
+        return db.execute("CREATE TABLE diaries(id INTEGER PRIMARY KEY, diaryId INTEGER, title TEXT, description TEXT)");
       },
+      // onCreate: (db, version) async {
+      //
+      //   await  db.execute("CREATE TABLE diaries(id INTEGER PRIMARY KEY, title TEXT, description TEXT)");
+      //   print('created');
+      //
+      //   return db;
+      // },
       version: 1,
     );
   }
 
   Future<int> insertDiary(Diary diary) async {
-    int diaryId = 0;
     Database _db = await database();
-    await _db.insert('diaries', diary.toMap(), conflictAlgorithm: ConflictAlgorithm.replace).then((value) {
-      diaryId = value;
-    });
-    return diaryId;
+    await _db.insert('diaries', diary.toMap(), conflictAlgorithm: ConflictAlgorithm.replace);
+    // int diaryId = 0;
+    // Database db = await database();
+    // await db.insert('diaries', diary.toMap(), conflictAlgorithm: ConflictAlgorithm.replace).then((value) {
+    //   diaryId = value;
+    // });
+    // return diaryId;
   }
 
   Future<void> updateDiaryTitle(int id, String title) async {

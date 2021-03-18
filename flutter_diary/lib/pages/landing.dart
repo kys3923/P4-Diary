@@ -57,6 +57,18 @@ class _Home2State extends State<Home2> {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                DiaryCards(
+                  title: 'Welcome to the Diary',
+                  desc: 'Press + Icon to write diaries',
+                ),
+                DiaryCards(
+                  title: 'Dummy Title1',
+                  desc: 'Flutter is hard to learn. Had to rewrite codes 3 times already.',
+                ), DiaryCards(
+                  title: 'Dummy Title2',
+                  desc: 'Why this DB is not writing?????? So annoying!!',
+                ),
+
                 Expanded(
                   child: FutureBuilder(
                     initialData: [],
@@ -95,7 +107,6 @@ class _Home2State extends State<Home2> {
                     },
                   ),
                 ),
-
                 //  MonthCard here
 
                 //  add button here
