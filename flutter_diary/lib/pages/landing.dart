@@ -1,13 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_diary/components/database_helper.dart';
 import 'package:flutter_diary/components/diary_page.dart';
 import 'package:intl/intl.dart';
-
 import 'package:flutter_diary/components/diary_card.dart';
-import 'package:flutter_diary/components/diary_page.dart';
 
 
 
-class Home2 extends StatelessWidget {
+class Home2 extends StatefulWidget {
+
+  @override
+  _Home2State createState() => _Home2State();
+}
+
+class _Home2State extends State<Home2> {
+
+  DatabaseHelper _dbHelper = DatabaseHelper();
 
   @override
   Widget build(BuildContext context) {
@@ -51,21 +58,41 @@ class Home2 extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Expanded(
-                  child: ScrollConfiguration(
-                    behavior: NoGlowBehaviour(),
-                    child: ListView(
-                      children: [
-                        DiaryCards(
-                          title: "Get Started!",
-                          desc: "Hello, Welcome to Flutter Diary app. \nClick/Touch Add button to write your diaries.",
+                  child: FutureBuilder(
+                    initialData: [],
+                    future: _dbHelper.getDiaries(),
+                    builder: (context, snapshot) {
+                      return ScrollConfiguration(
+                        behavior: NoGlowBehaviour(),
+                        child: ListView.builder(
+                          itemCount: snapshot.data.length,
+                          itemBuilder: (context, index) {
+                            return GestureDetector(
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => DiaryPage(
+                                        diary: snapshot.data[index],
+                                      ),
+                                  ),
+                                ).then(
+                                    (value) {
+                                      setState(() {
+
+                                      });
+                                    }
+                                );
+                              },
+                              child: DiaryCards(
+                                title: snapshot.data[index].title,
+                                desc: snapshot.data[index].description,
+                              ),
+                            );
+                          },
                         ),
-                        DiaryCards(),
-                        DiaryCards(),
-                        DiaryCards(),
-                        DiaryCards(),
-                        DiaryCards(),
-                      ],
-                    ),
+                      );
+                    },
                   ),
                 ),
 
@@ -82,9 +109,15 @@ class Home2 extends StatelessWidget {
           Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => DiaryPage()
+                builder: (context) => DiaryPage(
+                  diary: null,
+                )
               ),
-          );
+          ).then((value) {
+            setState(() {
+
+            });
+          });
         },
         child: Icon(Icons.add),
         backgroundColor: Colors.indigo,
