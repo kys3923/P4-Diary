@@ -1,6 +1,6 @@
 # P4 - Flutter Diary
 
-###### techs using: `Flutter` `Dart` `PostgreSQL`
+###### techs using: `Flutter` `Dart` `sqlite`
 
 
 ## User Story
@@ -13,15 +13,9 @@ The MVP is learning new language and platform to build an app. The goal for MVP 
 
 - [x] Install Dart and Flutter
 - [x] Top Nav
-- [ ] Choosing Year
-- [ ] Month Cards
-- - [ ] Slide
-- - [ ] Changing background
-- - [ ] Flip 
-- [ ] Bottom Nav
-- - [ ] Home
-- - [ ] Write Diary
-- - [ ] Profile
+- [x] Diary Cards
+- [X] Bottom Nav
+
 
 ## WireFrame
 #### Workflow
@@ -39,8 +33,8 @@ The MVP is learning new language and platform to build an app. The goal for MVP 
 ## Stretch Goals
 
 - [ ] BackEnd Building
-- [ ] Use heroku cloud DB
+- [x] sqlite DB
 - [ ] Auth
 - [ ] User Table 
-- [ ] Diary Table
+- [x] Diary Table
 - [ ] In profile, view counts of diaries
